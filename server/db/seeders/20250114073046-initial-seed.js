@@ -10,11 +10,9 @@ module.exports = {
       'Users',
       [
         {
-          name: 'Алексей',
-          email: 'a@aa.com',
-          password: bcrypt.hashSync('1111qQ!', 10),
-          createdAt: new Date(),
-          updatedAt: new Date(),
+          name: 'Admin',
+          email: 'aa@aa.com',
+          password: bcrypt.hashSync('123456', 10),
         },
       ],
       {},
